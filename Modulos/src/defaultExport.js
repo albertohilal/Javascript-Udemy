@@ -1,5 +1,3 @@
-'use strict';
-
 //Forma 1 - medinte palabras export default
 
 // export default () => {
@@ -20,12 +18,4 @@ const obtenerUsuario = () => {
   };
 };
 
-console.log("Soy codigo que se ejecuta desde el archivo emptyExport.js");
-
-const correo = "alberto@alberto.com";
-
-//Named Imports
-
-console.log(obtenerUsuario());
-
-console.log(correo);
+export default obtenerUsuario;
