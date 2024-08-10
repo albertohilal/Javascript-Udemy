@@ -1,5 +1,3 @@
-'use strict';
-
 //Forma 1 - Palabra export
 
 // export const nombre = "Carlos";
@@ -15,7 +13,4 @@ const obtenerPosts = () => {
   return ["Post 1", "Post 2", "Post 3"]; // Ejemplo de datos a retornar
 };
 
-//Named Imports
-
-console.log(nombre);
-console.log(obtenerPosts);
+export { nombre, obtenerPosts };
