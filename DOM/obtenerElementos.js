@@ -38,6 +38,14 @@ Nos permite obtener una coleccion de elementos en base a una clase css.
 Nota: Devuelve una coleccion HTML.
 */
 
-const contenedores = document.getElementsByClassName("contenedor");
+// const contenedores = document.getElementsByClassName("contenedor");
+// console.log(contenedores);
 
-console.log(contenedores);
+/*
+querySelector
+Nos devuelve el primer elemento que coincida con un selector estilo CSS.
+Nota:Devuelve un nodelist.
+*/
+
+const caja = document.querySelector("#contenedor1.caja");
+console.log(caja);
